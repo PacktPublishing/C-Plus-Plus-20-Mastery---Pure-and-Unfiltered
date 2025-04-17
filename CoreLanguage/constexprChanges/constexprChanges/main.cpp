@@ -1,3 +1,5 @@
+#include <iostream>
+#include <type_traits>
 //constexpr int Square(int x) {
 //	try {
 //		return x * x ;
@@ -7,30 +9,28 @@
 //}
 struct A {
 	virtual int Get()const {
-		return 1 ;
+		return 1;
 	}
 };
 struct B : A {
 
 	constexpr int Get() const override {
-		return 2 ;
+		return 2;
 	}
 };
 struct C : B {
 
 	int Get() const override {
-		return 3 ;
+		return 3;
 	}
 };
 
-constexpr int Invoke(A *a) {
-	return a->Get() ;
+constexpr int Invoke(const A* a) {
+	return a->Get();
 }
 int main() {
-	//auto result = Square(5) ;
-	A a ;
-	B b ;
-	C c ;
-	static_assert(Invoke(&a) == 2) ;
-	
+	A a{};
+	constexpr B b{};
+	C c;
+	static_assert(Invoke(&b) == 2);
 }
