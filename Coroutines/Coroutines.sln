@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09. FileIO Coro", "09. File
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10. FileIO Awaiter", "10. FileIO Awaiter\10. FileIO Awaiter.vcxproj", "{3C325CA3-8186-42EA-9731-7E5C10400E90}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10. FileIO Awaiter2", "10. FileIO Awaiter2\10. FileIO Awaiter2.vcxproj", "{86D12566-1861-4256-B4A1-DC187C49B6B8}"
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11. ExceptionHandling - I", "11. ExceptionHandling - I\11. ExceptionHandling - I.vcxproj", "{F60539FC-586E-4525-B1F3-1BBCD3F4DF48}"
 EndProject
 Global
@@ -113,6 +115,14 @@ Global
 		{3C325CA3-8186-42EA-9731-7E5C10400E90}.Release|x64.Build.0 = Release|x64
 		{3C325CA3-8186-42EA-9731-7E5C10400E90}.Release|x86.ActiveCfg = Release|Win32
 		{3C325CA3-8186-42EA-9731-7E5C10400E90}.Release|x86.Build.0 = Release|Win32
+		{86D12566-1861-4256-B4A1-DC187C49B6B8}.Debug|x64.ActiveCfg = Debug|x64
+		{86D12566-1861-4256-B4A1-DC187C49B6B8}.Debug|x64.Build.0 = Debug|x64
+		{86D12566-1861-4256-B4A1-DC187C49B6B8}.Debug|x86.ActiveCfg = Debug|Win32
+		{86D12566-1861-4256-B4A1-DC187C49B6B8}.Debug|x86.Build.0 = Debug|Win32
+		{86D12566-1861-4256-B4A1-DC187C49B6B8}.Release|x64.ActiveCfg = Release|x64
+		{86D12566-1861-4256-B4A1-DC187C49B6B8}.Release|x64.Build.0 = Release|x64
+		{86D12566-1861-4256-B4A1-DC187C49B6B8}.Release|x86.ActiveCfg = Release|Win32
+		{86D12566-1861-4256-B4A1-DC187C49B6B8}.Release|x86.Build.0 = Release|Win32
 		{F60539FC-586E-4525-B1F3-1BBCD3F4DF48}.Debug|x64.ActiveCfg = Debug|x64
 		{F60539FC-586E-4525-B1F3-1BBCD3F4DF48}.Debug|x64.Build.0 = Debug|x64
 		{F60539FC-586E-4525-B1F3-1BBCD3F4DF48}.Debug|x86.ActiveCfg = Debug|Win32

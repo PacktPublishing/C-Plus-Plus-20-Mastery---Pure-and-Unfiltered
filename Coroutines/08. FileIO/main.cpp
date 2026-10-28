@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <thread>
+#include <chrono>
 std::string GetFileData(std::ifstream &input, int bytes) {
 	std::string read_bytes{} ;
 	read_bytes.resize(bytes) ;
